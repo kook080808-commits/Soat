@@ -105,6 +105,8 @@ stopwatch__btnp.addEventListener("click", function () {
     stopwatch__btn.innerHTML = "Stop"
     if (stopwatch__btnp.innerHTML == "Play") {
     stopwatch__btnp.style.backgroundColor = "#22272d"
+    tabsLink__span.classList.remove("active_clear")
+    tabsLink__span.classList.add("active")
     stopwatch() 
     }
 })
